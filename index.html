@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axel Ariel Valiente</title>
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/services.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Axel Valiente</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">Acerca de mí</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <div class="about">
+          <h2>
+            Hola,<br />soy Axel Valiente y<br />te doy la bienvenida a mi
+            portfolio
+          </h2>
+          <img src="./assets/img/my-photo.jpg" alt="Foto de Axel" />
+        </div>
+      </section>
+      <section id="services">
+        <h2>Servicios</h2>
+        <h3>Mi stack</h3>
+        <div class="stacks"></div>
+        <h3>Otras herramientas</h3>
+        <div class="other-stack"></div>
+      </section>
+      <section id="portfolio">
+        <h2>Portafolio</h2>
+        <h3>Proyectos de desarrollo y maquetado web</h3>
+        <div id="projects"></div>
+        <h3>Proyectos de diseño UX/UI u otro</h3>
+      </section>
+      <section id="contact">
+        <h2>Contacto</h2>
+        <form class="contact-form">
+          <legend>Contacta conmigo</legend>
+          <input
+            type="text"
+            name="name"
+            placeholder="Escribe tu nombre"
+            title="Nombre sólo acepta letras y espacios en blanco"
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Escribe tu email"
+            title="Email incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+            required
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Asunto"
+            title="El Asunto es requerido"
+            required
+          />
+          <textarea
+            name="comments"
+            cols="50"
+            rows="5"
+            placeholder="Escribeme tus comentarios"
+            title="Tu comentario no debe exceder los 255 caracteres"
+            data-pattern="^.{1,255}$"
+            required
+          ></textarea>
+          <input type="submit" value="Enviar" />
+          <div class="contact-form-loader none">
+            <img src="../../assets/loader.svg" alt="Cargando" />
+          </div>
+          <div class="contact-form-response none">
+            <p>Los datos han sido enviados</p>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+    <template id="card-template">
+      <article class="card">
+        <h3></h3>
+        <img src="" alt="" />
+        <p id="description"></p>
+        <p id="tec"></p>
+        <p id="date"></p>
+
+        <a id="url" href="" target="_blank">Ver sitio</a>
+        <a id="github" href="" target="_blank">Ver Repositorio</a>
+      </article>
+    </template>
+    <template id="Mystack">
+      <div class="stack">
+        <img src="" alt="" />
+        <h3 class="stackName"></h3>
+      </div>
+    </template>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.stacks,
+.other-stack {
+  display: flex;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.stack img {
+  width: 100%;
+  height: auto;
+}
+
+

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "HTML5",
+    "img": "../../assets/img/services/html.png"
+  },
+
+  {
+    "name": "CSS3",
+    "img": "../../assets/img/services/css.png"
+  },
+  {
+    "name": "JavaScript",
+    "img": "../../assets/img/services/js.png"
+  },
+  {
+    "name": "BootStrap (v5.1)",
+    "img": "../../assets/img/services/bs.png"
+  },
+  {
+    "name": "SASS/SCSS",
+    "img": "../../assets/img/services/sass.png"
+  },
+  {
+    "name": "React",
+    "img": "../../assets/img/services/react.png"
+  },
+  {
+    "name": "Git",
+    "img": "../../assets/img/services/git.png"
+  },
+  {
+    "name": "GitHub",
+    "img": "../../assets/img/services/github.png"
+  }
+]

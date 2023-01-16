@@ -1,0 +1,14 @@
+#projects{
+  display: flex;
+}
+
+.card {
+  max-width: 720px;
+  min-width: 320;
+  height: auto;
+}
+
+.card img {
+  max-width: 100%;
+  height: inherit;
+}
