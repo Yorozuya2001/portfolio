@@ -12,7 +12,6 @@ export default function api(url,query) {
       json.forEach((el) => {
         $template.querySelector("div img").src = el.img;
         $template.querySelector("div img").alt = el.name;
-        $template.querySelector("div h3").textContent = el.name;
 
         let $clone = d.importNode($template, true);
         $fragment.appendChild($clone);

@@ -13,11 +13,11 @@
     "img": "../../assets/img/services/js.png"
   },
   {
-    "name": "BootStrap (v5.1)",
+    "name": "BOOTSTRAP",
     "img": "../../assets/img/services/bs.png"
   },
   {
-    "name": "SASS/SCSS",
+    "name": "SASS",
     "img": "../../assets/img/services/sass.png"
   },
   {
@@ -31,5 +31,30 @@
   {
     "name": "GitHub",
     "img": "../../assets/img/services/github.png"
+  },
+  {
+    "name": "Word",
+    "img": "../../assets/img/services/word.png"
+  },
+
+  {
+    "name": "Excel",
+    "img": "../../assets/img/services/excel.png"
+  },
+  {
+    "name": "Power Point",
+    "img": "../../assets/img/services/pp.png"
+  },
+  {
+    "name": "Photoshop",
+    "img": "../../assets/img/services/ps.png"
+  },
+  {
+    "name": "Figma",
+    "img": "../../assets/img/services/figma.png"
+  },
+  {
+    "name": "C",
+    "img": "../../assets/img/services/c.png"
   }
 ]

@@ -1,17 +1,26 @@
-.stacks,
-.other-stack {
-  display: flex;
-}
-
-.stack {
-  display: flex;
-  flex-direction: column;
-  width: 100px;
-}
-
-.stack img {
-  width: 100%;
+#services {
+  padding: 32px 16px;
   height: auto;
 }
 
+.stacks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.stack {
+  width: 100px;
+  margin: 24px 24px;
+}
+
+.stack img {
+  width: 80px;
+  height: auto;
+}
+
+.services-title {
+  margin: 32px 0;
+  text-align: center;
+}

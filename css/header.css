@@ -1,0 +1,14 @@
+header {
+  background: orangered;
+  font-size: 125%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 8px 16px;
+  margin: 0px 16px;
+}
+
+.nav-link{
+  color: white;
+  
+}

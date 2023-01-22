@@ -11,20 +11,27 @@ export default function api(url) {
       json.forEach((el) => {
         $template.querySelector("h3").textContent = el.name;
         $template.querySelector("img").src = el.img;
-        $template.querySelector("img").alt = `Web: ${el.name}`
+        $template.querySelector("img").alt = `Web: ${el.name}`;
         $template.getElementById("url").href = el.url;
-        $template.getElementById("github").href = el.github;
-        $template.getElementById("date").textContent = el.date
-        $template.getElementById("description").textContent = el.type;
-        $template.getElementById("tec").textContent = el.tec
+        $template.getElementById("repo").href = el.repo;
+        $template.getElementById(
+          "date"
+        ).textContent = `Ultima actualización: ${el.date}`;
+        $template.getElementById(
+          "description"
+        ).textContent = `Descripción: ${el.type}`;
+        $template.getElementById("tec").textContent = `Tecnologías: ${el.tec}`;
 
+        el.design &&
+          (($template.getElementById("url").textContent = "Probar prototipo"),
+          ($template.getElementById("repo").textContent = "Ver presentación"));
         let $clone = d.importNode($template, true);
         $fragment.appendChild($clone);
       });
 
       $projects.appendChild($fragment);
     })
-    .catch((err) => {
+    .catch((err) => {                
       console.log(err);
     });
 }

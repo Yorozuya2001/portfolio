@@ -1,14 +1,77 @@
-#projects{
+#portfolio {
+  padding: 32px 16px;
+  height: auto;
+}
+
+#projects {
+  padding: 32px 16px;
+  height: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
-  max-width: 720px;
-  min-width: 320;
-  height: auto;
+  max-width: 320px;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid orangered;
+  height: 600px;
+  margin: 16px;
 }
 
 .card img {
   max-width: 100%;
-  height: inherit;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 2px solid orangered;
 }
+
+.card-description,
+.card-tec,
+.card-date {
+  font-size: 100%;
+}
+
+.card-title {
+  font-size: 175%;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  
+}
+
+.button {
+  padding: 8px;
+  margin-top: 8px;
+  text-align: center;
+  background-color: orangered;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: black;
+  color: orangered;
+  transition: all 0.4s;
+}
+.text-content {
+  margin: 8px;
+}
+

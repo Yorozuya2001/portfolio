@@ -5,48 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Axel Ariel Valiente</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/portfolio.css" />
     <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="./css/services.css" />
     <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/footer.css">
   </head>
   <body>
-    <header>
-      <h1>Axel Valiente</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">Acerca de mí</a></li>
-          <li><a href="#services">Servicios</a></li>
-          <li><a href="#portfolio">Portafolio</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img
+            class="img-fluid"
+            src="./assets/img/logo.png"
+            alt="Logo de mi sitio web"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link" href="#about">Acerca de mí</a>
+              <a class="nav-link" href="#services">Servicios</a>
+              <a class="nav-link" href="#portfolio">Proyectos</a>
+              <a class="nav-link" href="#contact">Contacto</a>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
-    <main>
+    <main class="container">
       <section id="about">
         <div class="about">
-          <h2>
-            Hola,<br />soy Axel Valiente y<br />te doy la bienvenida a mi
-            portfolio
-          </h2>
-          <img src="./assets/img/my-photo.jpg" alt="Foto de Axel" />
+          <div class="description">
+            <h2>¡Hola!, te doy la bienvenida a mi portafolio.</h2>
+            <p class="p1">
+              Soy Axel y tengo 21 años. Actualmente vivo en Buenos Aires, me
+              dedico a estudiar y ser autodidacta cuando tengo tiempo libre, me
+              apasiona programar y desarrollar mis proyectos con los
+              conocimientos que adquiero de los cursos que realizo, además soy
+              estudiante de Ingeniería en Informática en la Universidad Nacional
+              de La Matanza, Actualmente me encuentro cursando en 2do año.
+            </p>
+            <p class="p2">
+              Mientras estudio y me desarrollo por completo en este ámbito, mi
+              objetivo es poder adquirir más experiencia además de crecer junto
+              a una organización en el área IT.
+            </p>
+          </div>
+          <img
+            class="my-photo img-fluid"
+            src="./assets/img/my-photo.jpg"
+            alt="Foto de Axel"
+          />
+        </div>
+        <div class="zone-container">
+          <div class="zone">
+            <h3 class="zone-text">Zona donde acutalmente resido:</h3>
+            <div class="iframe-container">
+              <iframe
+                class="iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52502.81033919761!2d-58.65170336183822!3d-34.669205343170226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc76f57e3be01%3A0xa488fcdcec5b600f!2sMor%C3%B3n%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1674004928684!5m2!1ses!2sar"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </section>
       <section id="services">
-        <h2>Servicios</h2>
-        <h3>Mi stack</h3>
+        <h2 class="services-title">Tecnologías y herramientas</h2>
         <div class="stacks"></div>
-        <h3>Otras herramientas</h3>
-        <div class="other-stack"></div>
       </section>
       <section id="portfolio">
         <h2>Portafolio</h2>
         <h3>Proyectos de desarrollo y maquetado web</h3>
         <div id="projects"></div>
-        <h3>Proyectos de diseño UX/UI u otro</h3>
       </section>
       <section id="contact">
         <h2>Contacto</h2>
+        <p>
+          Descarga mi
+          <a href="./assets/docs/43202499-CV-v1.1.pdf" target="_blank">CV</a>
+        </p>
         <form class="contact-form">
           <legend>Contacta conmigo</legend>
           <input
@@ -83,7 +151,7 @@
           ></textarea>
           <input type="submit" value="Enviar" />
           <div class="contact-form-loader none">
-            <img src="../../assets/loader.svg" alt="Cargando" />
+            <img src="./assets/img/contact/loader.svg" alt="Cargando" />
           </div>
           <div class="contact-form-response none">
             <p>Los datos han sido enviados</p>
@@ -91,25 +159,41 @@
         </form>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <hr class="footer__hrEdit" />
+      <div class="d-flex justify-content-center align-items-center">
+        <p class="text-center">
+          &copyAxel Ariel Valiente 2023 <br />Todos los derechos reservados
+        </p>
+      </div>
+    </footer>
     <template id="card-template">
       <article class="card">
-        <h3></h3>
-        <img src="" alt="" />
-        <p id="description"></p>
-        <p id="tec"></p>
-        <p id="date"></p>
-
-        <a id="url" href="" target="_blank">Ver sitio</a>
-        <a id="github" href="" target="_blank">Ver Repositorio</a>
+        <img class="card-img" src="" alt="" />
+        <h3 class="card-title"></h3>
+        <div class="text-content">
+          <p class="card-description" id="description"></p>
+          <p class="card-tec" id="tec"></p>
+          <p class="card-date" id="date"></p>
+        </div>
+        <div class="buttons">
+          <a class="button" id="url" href="" target="_blank">Ver sitio</a>
+          <a class="button" id="repo" href="" target="_blank"
+            >Ver Repositorio</a
+          >
+        </div>
       </article>
     </template>
     <template id="Mystack">
       <div class="stack">
         <img src="" alt="" />
-        <h3 class="stackName"></h3>
       </div>
     </template>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/index.js" type="module"></script>
   </body>
 </html>

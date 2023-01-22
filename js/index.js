@@ -7,6 +7,5 @@ const d = document;
 d.addEventListener("DOMContentLoaded", (e) => {
   apiJson("js/json/projects.json");
   apiStack("js/json/mi-stack.json", "#services .stacks");
-  apiStack("js/json/other-stack.json", "#services .other-stack");
   contactFormValidations();
 });

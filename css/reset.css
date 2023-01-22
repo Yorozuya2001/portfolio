@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.3rem;
+}
+
+body {
+  background: black;
+  background: linear-gradient(90deg, black 0%, #2a2a29 58%, #121212 95%);
+  color: white;
+}

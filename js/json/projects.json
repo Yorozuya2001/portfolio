@@ -2,73 +2,100 @@
   {
     "name": "Muebles Valencia Project",
     "img": "./assets/img/projects/mvp.png",
-    "github": "https://github.com/Yorozuya2001/ProyectoCoderMVP.git",
-    "type": "Proyecto académico. He tomado como tématica una mueblería de mi localidad y he montado un sitio web estatico. Este fue mi primer proyecto de maquetación web.",
-    "tec": "HTML | CSS | SASS | BOOTSTRAP (v5.1)",
+    "repo": "https://github.com/Yorozuya2001/ProyectoCoderMVP.git",
+    "type": "Mueblería - Sitio web estático.",
+    "tec": "HTML | CSS | SASS | BOOTSTRAP",
     "date": "Feb 26, 2022",
-    "url": "https://muebles-valencia-project.vercel.app/"
+    "url": "https://muebles-valencia-project.vercel.app/",
+    "dev": true,
+    "design": false
   },
   {
     "name": "Tribute Page",
     "img": "./assets/img/projects/tribute-page.png",
-    "github": "https://github.com/Yorozuya2001/project-for-free-code-camp-tribute.git",
-    "type": "Proyecto en FCC sobre un Tributo a una persona, en este caso he elegido a Diego Armando Maradona.",
+    "repo": "https://github.com/Yorozuya2001/project-for-free-code-camp-tribute.git",
+    "type": "Página sobre tributo a una persona.",
     "tec": "HTML | CSS",
     "date": "Apr 2, 2022",
-    "url": "https://yorozuya2001.github.io/project-for-free-code-camp-tribute//"
+    "url": "https://yorozuya2001.github.io/project-for-free-code-camp-tribute/",
+    "dev": true,
+    "design": false
   },
   {
     "name": "Survey Form",
     "img": "./assets/img/projects/survey-form.png",
-    "github": "https://github.com/Yorozuya2001/form-for-free-code-camp.git",
-    "type": "Proyecto en FCC sobre un formulario.",
+    "repo": "https://github.com/Yorozuya2001/form-for-free-code-camp.git",
+    "type": "Plantilla de formulario estático.",
     "tec": "HTML | CSS",
     "date": "Apr 3, 2022",
-    "url": "https://yorozuya2001.github.io/form-for-free-code-camp/"
+    "url": "https://yorozuya2001.github.io/form-for-free-code-camp/",
+    "dev": true,
+    "design": false
   },
   {
-    "name": "Technical Documentation Page",
+    "name": "Technical Documentation",
     "img": "./assets/img/projects/t-doc.png",
-    "github": "https://github.com/Yorozuya2001/technical-documentation-for-free-code-camp.git",
-    "type": "Proyecto en FCC",
+    "repo": "https://github.com/Yorozuya2001/technical-documentation-for-free-code-camp.git",
+    "type": "Documentación de HTML.",
     "tec": "HTML | CSS",
     "date": "Apr 5, 2022",
-    "url": "https://yorozuya2001.github.io/technical-documentation-for-free-code-camp/#Anatom%C3%ADa_de_un_elemento_HTML"
+    "url": "https://yorozuya2001.github.io/technical-documentation-for-free-code-camp/#Anatom%C3%ADa_de_un_elemento_HTML",
+    "dev": true,
+    "design": false
   },
   {
     "name": "Landing Page",
     "img": "./assets/img/projects/landing-page.png",
-    "github": "https://github.com/Yorozuya2001/landing-page-for-free-code-camp.git",
-    "type": "Proyecto en FCC",
+    "repo": "https://github.com/Yorozuya2001/landing-page-for-free-code-camp.git",
+    "type": "Mini landing page estático.",
     "tec": "HTML | CSS",
     "date": "Apr 5, 2022",
-    "url": "https://yorozuya2001.github.io/landing-page-for-free-code-camp/"
+    "url": "https://yorozuya2001.github.io/landing-page-for-free-code-camp/",
+    "dev": true,
+    "design": false
   },
   {
-    "name": "E-commerce con JS",
+    "name": "E-commerce JS",
     "img": "./assets/img/projects/amd-intel-shop.png",
-    "github": "https://github.com/Yorozuya2001/JavaScriptCoderHouse.git",
-    "type": "Proyecto académico. He tomado como tématica una tienda de procesadores y he armado un e-commerce con Vanilla JS. Este fue mi primer proyecto dinámico.",
-    "tec": "HTML | CSS | JAVASCRIPT | BOOTSTRAP (v5.1)",
+    "repo": "https://github.com/Yorozuya2001/JavaScriptCoderHouse.git",
+    "type": "e-commerce con Vanilla JS dinámico.",
+    "tec": "HTML | CSS | JAVASCRIPT | BOOTSTRAP",
     "date": "Jun 12, 2022",
-    "url": "https://java-script-coder-house.vercel.app/"
+    "url": "https://java-script-coder-house.vercel.app/",
+    "dev": true,
+    "design": false
   },
   {
     "name": "Aerodynamic Store",
     "img": "./assets/img/projects/aerodynamic-store.png",
-    "github": "https://github.com/Yorozuya2001/ReactProject-V2.git",
-    "type": "Proyecto académico. He tomado como tématica una tienda Gamer y he armado un e-commerce con JS más la librería REACT. Este fue mi primer proyecto dinámico interactuando con REACT JS y utilizando Firebase.",
-    "tec": "HTML | CSS | JAVASCRIPT | REACT | FIREBASE | BOOTSTRAP (v5.1) | SASS",
+    "repo": "https://github.com/Yorozuya2001/ReactProject-V2.git",
+    "type": "E-commerce con JS + REACT.",
+    "tec": "HTML | CSS | JAVASCRIPT | REACT | FIREBASE | BOOTSTRAP | SASS",
     "date": "Jun 12, 2022",
-    "url": "https://aerodynamic-sotre.netlify.app/"
+    "url": "https://aerodynamic-sotre.netlify.app/",
+    "dev": true,
+    "design": false
   },
   {
     "name": "Instituto Médico Veterinario",
     "img": "./assets/img/projects/instituto.png",
-    "github": "https://github.com/Yorozuya2001/Instituto-Medico-Veterinario.git",
+    "repo": "https://github.com/Yorozuya2001/Instituto-Medico-Veterinario.git",
     "type": "Primer proyecto real.",
     "tec": "HTML | CSS | JAVASCRIPT",
     "date": "May 8, 2022",
-    "url": "http://institutoveterinario.com.ar/"
+    "url": "http://institutoveterinario.com.ar/",
+    "dev": true,
+    "design": false
+  },
+  {
+    "name": "Game Club",
+    "img": "./assets/img/projects/game-club.JPG",
+    "repo": "https://www.behance.net/gallery/149539787/Game-Club",
+    "type": "Diseño UX / UI.",
+    "tec": "FIGMA | MATERIAL UI | OPTIMAL WORKSHOP",
+    "date": "Abr 21, 2022",
+    "url": "https://www.figma.com/proto/UigA6uNzAw1O14sYIpccIC?kind=&node-id=37:2902&page-id=0:1&scaling=scale-down&starting-point-node-id=37:2902&viewport=623,-2239,0.55",
+    "dev": true,
+    "design": true
   }
 ]
