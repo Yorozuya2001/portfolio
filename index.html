@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="./css/services.css" />
     <link rel="stylesheet" href="./css/contact.css" />
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
     <header class="sticky-top">
@@ -110,13 +110,29 @@
         <div id="projects"></div>
       </section>
       <section id="contact">
-        <h2>Contacto</h2>
-        <p>
-          Descarga mi
-          <a href="./assets/docs/43202499-CV-v1.1.pdf" target="_blank">CV</a>
-        </p>
+        <h2>Contacta conmigo</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="sm-p">Redes sociales y plataformas</p>
+              <div class="d-flex flex-wrap social-images">
+                <img src="./assets/img/social/linkedin.png" alt="" /><img
+                  src="./assets/img/social/instagram.png"
+                  alt=""
+                /><img src="./assets/img/social/behance.png" alt="" /><img
+                  src="./assets/img/social/whatsapp.png"
+                  alt=""
+                /><img src="./assets/img/services/github.png" alt="" />
+              </div>
+            </div>
+            <div class="col-sm-6 cv-querie">
+              <p class="sm-p">Hechale un vistazo a mi curriculum vitae</p>
+              <a href="./assets/docs/CV-for-web.pdf"><img class="cv" src="./assets/img/social/carta-de-presentacion.png" alt=""></a>
+            </div>
+          </div>
+        </div>
         <form class="contact-form">
-          <legend>Contacta conmigo</legend>
+          <legend>Formulario</legend>
           <input
             type="text"
             name="name"

@@ -52,7 +52,6 @@
   align-items: center;
   justify-content: center;
   margin: 8px;
-  
 }
 
 .button {
@@ -75,3 +74,20 @@
   margin: 8px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .card {
+    height: auto;
+    margin: 16px;
+  }
+
+  .card img {
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-size: 125%;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+}
