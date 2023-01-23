@@ -44,3 +44,19 @@ body {
     font-size: 1rem;
   }
 }
+
+@media screen and (min-width: 425px) and (max-width: 768px){
+    h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  p{
+    font-size: 1.2rem;
+  }
+}

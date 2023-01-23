@@ -91,3 +91,21 @@
     margin-left: 8px;
   }
 }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .card {
+    height: auto;
+    margin: 16px;
+  }
+
+  .card img {
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-size: 125%;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+}

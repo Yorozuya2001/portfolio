@@ -30,7 +30,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <img
-            class="img-fluid"
+            class="img-fluid logo"
             src="./assets/img/logo.png"
             alt="Logo de mi sitio web"
           />
@@ -111,68 +111,95 @@
       </section>
       <section id="contact">
         <h2>Contacta conmigo</h2>
-        <div class="container">
+        <div class="container margin">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6">
               <p class="sm-p">Redes sociales y plataformas</p>
               <div class="d-flex flex-wrap social-images">
-                <img src="./assets/img/social/linkedin.png" alt="" /><img
-                  src="./assets/img/social/instagram.png"
-                  alt=""
-                /><img src="./assets/img/social/behance.png" alt="" /><img
-                  src="./assets/img/social/whatsapp.png"
-                  alt=""
-                /><img src="./assets/img/services/github.png" alt="" />
+                <a
+                  href="https://www.linkedin.com/in/axel-valiente-a312021b4/"
+                  target="_blank"
+                  ><img
+                    src="./assets/img/social/linkedin.png"
+                    alt="Mi Linkedin"
+                /></a>
+                <a href="https://www.instagram.com/tech.axel_v/" target="_blank"
+                  ><img
+                    src="./assets/img/social/instagram.png"
+                    alt="Mi Instagram" /></a
+                ><a
+                  href="https://www.behance.net/axelvalientehex97"
+                  target="_blank"
+                  ><img
+                    src="./assets/img/social/behance.png"
+                    alt="Mi behance" /></a
+                ><a
+                  href="https://api.whatsapp.com/send?phone=541161818960&text=Hola,%20Te%20contacto%20desde%20tu%20sitio%20web."
+                  target="_blank"
+                  ><img
+                    src="./assets/img/social/whatsapp.png"
+                    alt="Mi whatsapp"
+                /></a>
+                <a href="https://github.com/Yorozuya2001" target="_blank"
+                  ><img src="./assets/img/services/github.png" alt="Mi github"
+                /></a>
               </div>
             </div>
-            <div class="col-sm-6 cv-querie">
+            <div class="col-md-6 cv-querie">
               <p class="sm-p">Hechale un vistazo a mi curriculum vitae</p>
-              <a href="./assets/docs/CV-for-web.pdf"><img class="cv" src="./assets/img/social/carta-de-presentacion.png" alt=""></a>
+              <a href="./assets/docs/CV-for-web.pdf"
+                ><img
+                  class="cv"
+                  src="./assets/img/social/carta-de-presentacion.png"
+                  alt="Mi CV"
+              /></a>
             </div>
           </div>
         </div>
-        <form class="contact-form">
-          <legend>Formulario</legend>
-          <input
-            type="text"
-            name="name"
-            placeholder="Escribe tu nombre"
-            title="Nombre sólo acepta letras y espacios en blanco"
-            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Escribe tu email"
-            title="Email incorrecto"
-            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
-            required
-          />
-          <input
-            type="text"
-            name="subject"
-            placeholder="Asunto"
-            title="El Asunto es requerido"
-            required
-          />
-          <textarea
-            name="comments"
-            cols="50"
-            rows="5"
-            placeholder="Escribeme tus comentarios"
-            title="Tu comentario no debe exceder los 255 caracteres"
-            data-pattern="^.{1,255}$"
-            required
-          ></textarea>
-          <input type="submit" value="Enviar" />
-          <div class="contact-form-loader none">
-            <img src="./assets/img/contact/loader.svg" alt="Cargando" />
-          </div>
-          <div class="contact-form-response none">
-            <p>Los datos han sido enviados</p>
-          </div>
-        </form>
+        <div class="margin">
+          <form class="contact-form">
+            <legend>Contactame por Email</legend>
+            <input
+              type="text"
+              name="name"
+              placeholder="Nombre"
+              title="Nombre sólo acepta letras y espacios en blanco"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              title="Email incorrecto"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Asunto"
+              title="El Asunto es requerido"
+              required
+            />
+            <textarea
+              name="comments"
+              cols="50"
+              rows="5"
+              placeholder="Mensaje"
+              title="Tu comentario no debe exceder los 255 caracteres"
+              data-pattern="^.{1,255}$"
+              required
+            ></textarea>
+            <input class="send" type="submit" value="Enviar" />
+            <div class="contact-form-loader none">
+              <img src="./assets/img/contact/loader.svg" alt="Cargando" />
+            </div>
+            <div class="contact-form-response none">
+              <p>Los datos han sido enviados</p>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="footer">

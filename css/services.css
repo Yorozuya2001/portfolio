@@ -26,15 +26,25 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
-.stack {
-  width: 50px;
-  margin: 24px 24px;
-}
+  .stack {
+    width: 50px;
+    margin: 24px 24px;
+  }
 
   .stack img {
-  width: 50px;
-  height: auto;
+    width: 50px;
+    height: auto;
+  }
 }
 
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .stack {
+    width: 80px;
+    margin: 24px 24px;
+  }
 
+  .stack img {
+    width: 80px;
+    height: auto;
+  }
 }
