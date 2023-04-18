@@ -88,6 +88,28 @@
     "design": false
   },
   {
+    "name": "Rick y Morty",
+    "img": "./assets/img/projects/rick-y-morty.png",
+    "repo": "https://github.com/Yorozuya2001/Rick-And-Morty-React",
+    "type": "Full stack app.",
+    "tec": "REACT | REDUX | NODE | EXPRESS | POSTGRESQL | SEQUELIZE",
+    "date": "Mar 04, 2023",
+    "url": "https://github.com/Yorozuya2001/Rick-And-Morty-React",
+    "dev": true,
+    "design": false
+  },
+  {
+    "name": "Test Api Meli",
+    "img": "./assets/img/projects/api-meli.png",
+    "repo": "https://github.com/Yorozuya2001/Learning-MercadoLibre-Api",
+    "type": "Probando la api de MercadoLibre.",
+    "tec": "VANILLA JS",
+    "date": "Feb 20, 2023",
+    "url": "https://yorozuya2001.github.io/Learning-MercadoLibre-Api/",
+    "dev": true,
+    "design": false
+  },
+  {
     "name": "Game Club",
     "img": "./assets/img/projects/game-club.JPG",
     "repo": "https://www.behance.net/gallery/149539787/Game-Club",

@@ -31,7 +31,7 @@ export default function api(url) {
 
       $projects.appendChild($fragment);
     })
-    .catch((err) => {                
+    .catch((err) => {
       console.log(err);
     });
 }

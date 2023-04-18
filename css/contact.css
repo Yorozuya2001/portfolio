@@ -5,15 +5,22 @@
   margin: 8px 16px 8px 0;
 }
 
+.social-images img {
+  transition: all 0.4s;
+}
+
 .social-images img:hover {
   transform: scale(1.3, 1.3);
-  transition: all 0.4s;
+
   cursor: pointer;
+}
+
+.cv {
+  transition: all 0.4s;
 }
 
 .cv:hover {
   transform: scale(1.3, 1.3);
-  transition: all 0.4s;
 }
 
 .contact-form {

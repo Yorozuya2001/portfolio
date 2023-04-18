@@ -1,6 +1,6 @@
 const d = document;
 
-export default function api(url,query) {
+export default function api(url, query) {
   const $template = d.getElementById("Mystack").content,
     $stack = d.querySelector(query),
     $fragment = d.createDocumentFragment();

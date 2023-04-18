@@ -63,12 +63,12 @@
   text-decoration: none;
   color: white;
   width: 100%;
+  transition: all 0.4s;
 }
 
 .button:hover {
   background-color: black;
   color: orangered;
-  transition: all 0.4s;
 }
 .text-content {
   margin: 8px;
