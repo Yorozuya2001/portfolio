@@ -92,9 +92,9 @@
     "img": "./assets/img/projects/rick-y-morty.png",
     "repo": "https://github.com/Yorozuya2001/Rick-And-Morty-React",
     "type": "Full stack app.",
-    "tec": "REACT | REDUX | NODE | EXPRESS | POSTGRESQL | SEQUELIZE",
+    "tec": "JAVASCRIPT | HTML | CSS | REACT | REDUX | EXPRESS | NODE | SEQUELIZE | STLYLED-COMPONENTS",
     "date": "Mar 04, 2023",
-    "url": "https://github.com/Yorozuya2001/Rick-And-Morty-React",
+    "url": "https://rick-and-morty-frontend-theta.vercel.app/",
     "dev": true,
     "design": false
   },
@@ -106,6 +106,17 @@
     "tec": "VANILLA JS",
     "date": "Feb 20, 2023",
     "url": "https://yorozuya2001.github.io/Learning-MercadoLibre-Api/",
+    "dev": true,
+    "design": false
+  },
+  {
+    "name": "Gastro Web",
+    "img": "./assets/img/projects/gastroweb.png",
+    "repo": "https://github.com/Yorozuya2001/GastroWeb.git",
+    "type": "Aplicación full stack",
+    "tec": "JAVASCRIPT | HTML | CSS | REACT | REDUX | EXPRESS | NODE | SEQUELIZE | STLYLED-COMPONENTS",
+    "date": "Abr 27, 2023",
+    "url": "https://gastro-web-frontend.vercel.app/",
     "dev": true,
     "design": false
   },
