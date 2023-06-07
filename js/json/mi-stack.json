@@ -45,10 +45,6 @@
     "img": "../../assets/img/services/styled-components.png"
   },
   {
-    "name": "Jest",
-    "img": "../../assets/img/services/Jest.png"
-  },
-  {
     "name": "Sequelize",
     "img": "../../assets/img/services/sequelize.svg"
   },
