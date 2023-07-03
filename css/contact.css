@@ -1,3 +1,10 @@
+#contact h2 {
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .social-images a img,
 .cv {
   width: 70px;
@@ -100,7 +107,7 @@
 }
 
 .send {
-  background-color: orangered;
+  background-color: #b543fd;
   color: white;
   border-radius: 10px;
   border: none;
@@ -108,7 +115,7 @@
 
 .send:hover {
   background-color: white;
-  color: orangered;
+  color: #b543fd;
 
   transition: all 0.4s;
 }

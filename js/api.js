@@ -15,9 +15,6 @@ export default function api(url) {
         $template.getElementById("url").href = el.url;
         $template.getElementById("repo").href = el.repo;
         $template.getElementById(
-          "date"
-        ).textContent = `Ultima actualización: ${el.date}`;
-        $template.getElementById(
           "description"
         ).textContent = `Descripción: ${el.type}`;
         $template.getElementById("tec").textContent = `Tecnologías: ${el.tec}`;

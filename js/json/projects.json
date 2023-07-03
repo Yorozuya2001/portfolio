@@ -5,7 +5,6 @@
     "repo": "https://github.com/Yorozuya2001/ProyectoCoderMVP.git",
     "type": "Mueblería - Sitio web estático.",
     "tec": "HTML | CSS | SASS | BOOTSTRAP",
-    "date": "Feb 26, 2022",
     "url": "https://muebles-valencia-project.vercel.app/",
     "dev": true,
     "design": false
@@ -16,7 +15,6 @@
     "repo": "https://github.com/Yorozuya2001/project-for-free-code-camp-tribute.git",
     "type": "Página sobre tributo a una persona.",
     "tec": "HTML | CSS",
-    "date": "Apr 2, 2022",
     "url": "https://yorozuya2001.github.io/project-for-free-code-camp-tribute/",
     "dev": true,
     "design": false
@@ -27,7 +25,6 @@
     "repo": "https://github.com/Yorozuya2001/form-for-free-code-camp.git",
     "type": "Plantilla de formulario estático.",
     "tec": "HTML | CSS",
-    "date": "Apr 3, 2022",
     "url": "https://yorozuya2001.github.io/form-for-free-code-camp/",
     "dev": true,
     "design": false
@@ -38,7 +35,6 @@
     "repo": "https://github.com/Yorozuya2001/technical-documentation-for-free-code-camp.git",
     "type": "Documentación de HTML.",
     "tec": "HTML | CSS",
-    "date": "Apr 5, 2022",
     "url": "https://yorozuya2001.github.io/technical-documentation-for-free-code-camp/#Anatom%C3%ADa_de_un_elemento_HTML",
     "dev": true,
     "design": false
@@ -49,7 +45,6 @@
     "repo": "https://github.com/Yorozuya2001/landing-page-for-free-code-camp.git",
     "type": "Mini landing page estático.",
     "tec": "HTML | CSS",
-    "date": "Apr 5, 2022",
     "url": "https://yorozuya2001.github.io/landing-page-for-free-code-camp/",
     "dev": true,
     "design": false
@@ -60,7 +55,6 @@
     "repo": "https://github.com/Yorozuya2001/JavaScriptCoderHouse.git",
     "type": "e-commerce con Vanilla JS dinámico.",
     "tec": "HTML | CSS | JAVASCRIPT | BOOTSTRAP",
-    "date": "Jun 12, 2022",
     "url": "https://java-script-coder-house.vercel.app/",
     "dev": true,
     "design": false
@@ -71,7 +65,6 @@
     "repo": "https://github.com/Yorozuya2001/ReactProject-V2.git",
     "type": "E-commerce con JS + REACT.",
     "tec": "HTML | CSS | JAVASCRIPT | REACT | FIREBASE | BOOTSTRAP | SASS",
-    "date": "Jun 12, 2022",
     "url": "https://aerodynamic-sotre.netlify.app/",
     "dev": true,
     "design": false
@@ -82,7 +75,7 @@
     "repo": "https://github.com/Yorozuya2001/Instituto-Medico-Veterinario.git",
     "type": "Primer proyecto real.",
     "tec": "HTML | CSS | JAVASCRIPT",
-    "date": "May 8, 2022",
+
     "url": "http://institutoveterinario.com.ar/",
     "dev": true,
     "design": false
@@ -93,7 +86,7 @@
     "repo": "https://github.com/Yorozuya2001/Rick-And-Morty-React",
     "type": "Aplicación full stack",
     "tec": "JAVASCRIPT | HTML | CSS | REACT | REDUX | EXPRESS | NODE | SEQUELIZE | STLYLED-COMPONENTS",
-    "date": "Mar 04, 2023",
+
     "url": "https://rick-and-morty-frontend-theta.vercel.app/",
     "dev": true,
     "design": false
@@ -104,7 +97,6 @@
     "repo": "https://github.com/Yorozuya2001/Learning-MercadoLibre-Api",
     "type": "Probando la api de MercadoLibre.",
     "tec": "VANILLA JS",
-    "date": "Feb 20, 2023",
     "url": "https://yorozuya2001.github.io/Learning-MercadoLibre-Api/",
     "dev": true,
     "design": false
@@ -115,7 +107,6 @@
     "repo": "https://github.com/Yorozuya2001/GastroWeb.git",
     "type": "Aplicación full stack",
     "tec": "JAVASCRIPT | HTML | CSS | REACT | REDUX | EXPRESS | NODE | SEQUELIZE | POSTGRESQL | STLYLED-COMPONENTS",
-    "date": "Abr 27, 2023",
     "url": "https://gastro-web-frontend.vercel.app/",
     "dev": true,
     "design": false
@@ -126,7 +117,6 @@
     "repo": "https://github.com/Jefersonsteven/tools-match",
     "type": "Aplicación full stack",
     "tec": "JAVASCRIPT | HTML | CSS | REACT | NEXT JS 13 | EXPRESS | NODE | PRISMA | TAILWIND CSS | FIREBASE | POSTGRESQL",
-    "date": "Jun 1, 2023",
     "url": "https://tools-match-eight.vercel.app/",
     "dev": true,
     "design": false
@@ -137,7 +127,6 @@
     "repo": "https://www.behance.net/gallery/149539787/Game-Club",
     "type": "Diseño UX / UI.",
     "tec": "FIGMA | MATERIAL UI | OPTIMAL WORKSHOP",
-    "date": "Abr 21, 2022",
     "url": "https://www.figma.com/proto/UigA6uNzAw1O14sYIpccIC?kind=&node-id=37:2902&page-id=0:1&scaling=scale-down&starting-point-node-id=37:2902&viewport=623,-2239,0.55",
     "dev": true,
     "design": true

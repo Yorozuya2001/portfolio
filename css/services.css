@@ -23,6 +23,10 @@
 .services-title {
   margin: 32px 0;
   text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {

@@ -3,6 +3,13 @@
   height: auto;
 }
 
+#portfolio h2 {
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 #projects {
   padding: 32px 16px;
   height: auto;
@@ -18,12 +25,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
+  background-color: #ffea00;
   color: black;
   border-radius: 10px;
-  border: 2px solid orangered;
+  border: 1px solid #b543fd;
   height: 600px;
   margin: 16px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.01, 1.01);
 }
 
 .card img {
@@ -32,7 +47,7 @@
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  border-bottom: 2px solid orangered;
+  border-bottom: 2px solid #b543fd;
 }
 
 .card-description,
@@ -42,9 +57,14 @@
 }
 
 .card-title {
-  font-size: 175%;
+  font-size: 150%;
+  font-weight: 900;
+
+  text-transform: uppercase;
+  text-align: center;
   margin-top: 8px;
-  margin-left: 8px;
+  height: 60px;
+  opacity: 0.8;
 }
 
 .buttons {
@@ -59,7 +79,7 @@
   padding: 8px;
   margin-top: 8px;
   text-align: center;
-  background-color: orangered;
+  background-color: #b543fd;
   border-radius: 10px;
   text-decoration: none;
   color: white;
@@ -69,7 +89,7 @@
 
 .button:hover {
   background-color: black;
-  color: orangered;
+  color: #b543fd;
 }
 .text-content {
   margin: 8px;
