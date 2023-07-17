@@ -13,9 +13,9 @@ header {
 }
 
 .navbar-nav a {
-  font-weight: 900;
+  font-weight: 500;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .navbar-toggler-icon {

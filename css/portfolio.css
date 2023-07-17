@@ -4,7 +4,7 @@
 }
 
 #portfolio h2 {
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
@@ -25,10 +25,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #ffea00;
+  background-color: white;
   color: black;
   border-radius: 10px;
-  border: 1px solid #b543fd;
+  border: 2px solid #b543fd;
   height: 600px;
   margin: 16px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
@@ -58,7 +58,7 @@
 
 .card-title {
   font-size: 150%;
-  font-weight: 900;
+  font-weight: 700;
 
   text-transform: uppercase;
   text-align: center;
